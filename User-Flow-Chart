@@ -1,0 +1,23 @@
+User Flow Chart
+
+System starts
+  1) Display Message - Pls Enter User and PIN
+    USB NumberPad Detects typing (input?) input.
+    compare input to dictionary?
+    
+    if no match found, state 2a
+    if match found, state 2b
+  
+  2)a) Sorry, wrong PIN
+       Try again?
+       
+       sleep 3 sec
+       return to state 1
+  
+  2)b) Tray (number) Opened
+       (random message)
+       sleep 20 sec... count down?
+       
+ 
+Def enterPin ():
+  
